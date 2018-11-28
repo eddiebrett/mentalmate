@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <script src="script.js"></script>
+  <title>mental mate</title>
+</head>
+
+<body>
+
+
+  <!------------------------------page title/logo-------------------------------->
+  <h1 class="page-title">mental mate</h1>
+
+
+  <!-----------------------game-text-intervals----------------------------------->
+  <div class="overlay-text visible">
+    click to begin.
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    unlucky mate!
+    <span class="overlay-text-small">click to restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    oioi!
+    <span class="overlay-text-small">click to restart</span>
+  </div>
+
+
+  <!--------------------------interactive game counts---------------------------->
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        time <span class="font-effect-fire-animation" id="time-remaining">69</span>
+      </div>
+      <div class="game-info">
+        flips <span class="font-effect-fire-animation" id="flips">0</span>
+      </div>
+    </div>
+
+    <!-----------------------------------game-cards--------------------------------->
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/he-does-what-he-wants.jpg" alt="he-does-what-he-wants">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/he-does-what-he-wants.jpg" alt="he-does-what-he-wants">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/wordart.jpg" alt="wordart">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/wordart.jpg" alt="wordart">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/first-things-first.jpg" alt="first-things-first">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/first-things-first.jpg" alt="first-things-first">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/honest.jpg" alt="honest">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/honest.jpg" alt="honest">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/parlay.jpg" alt="parlay">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/parlay.jpg" alt="parlay">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/pirate.jpg" alt="pirate">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/pirate.jpg" alt="pirate">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/this-and-that.jpg" alt="this-and-that">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/this-and-that.jpg" alt="this-and-that">
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/this-and-that-and-that.jpg" alt="this-and-that-and-that">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-back card-face">
+        <img src="img/mate.jpg" alt="mate-card">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="img/this-and-that-and-that.jpg" alt="this-and-that-and-that">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
